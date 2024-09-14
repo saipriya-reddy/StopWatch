@@ -1,0 +1,57 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: peachpuff;
+    border :2px solid #c7475c;
+    border-radius: 20px;
+    margin-top: 25vh;
+    
+   
+
+}
+#myH1{
+    font-size: 4rem;
+    font-family: cursive;
+    color:#8d2e3e;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border:4px solid #c7475c;
+    border-radius: 50px;
+  background-color: rgb(249, 231, 231);
+  margin-bottom: 20px;
+
+}
+#displays{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    color:#8d2e3e;
+    text-shadow: 2px 2px  rgb(230, 144, 144);
+    margin-bottom: 25px;
+
+}
+#controls button{
+ font-size:2rem;
+ font-family: cursive;
+ background-color: hsl(350, 53%, 53%);
+ color:white;
+ border-radius: 15px;
+ border:2px solid white;
+ font-weight: bold;
+ padding: 10px 20px;
+ margin: 5px;
+ min-width: 125px;
+ cursor: pointer;
+ transition: background-color 0.5s ease;
+
+ 
+
+}
+#controls button:hover{
+    background-color:hsl(350, 53%, 45%);
+}
